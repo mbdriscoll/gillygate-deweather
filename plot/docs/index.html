@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Air Quality Analysis</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6;
+        }
+        h1 { 
+            color: #333; 
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .plot-container { 
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .plot-container h2 {
+            color: #444;
+            margin-top: 0;
+        }
+        .plot-container iframe { 
+            width: 100%; 
+            height: 450px; 
+            border: none; 
+        }
+        .description {
+            margin-bottom: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="plot-container">
+        <iframe src="no_plot.html"></iframe>
+    </div>
+    
+    <div class="plot-container">
+        <iframe src="no2_plot.html"></iframe>
+    </div>
+    
+    <div class="plot-container">
+        <iframe src="nox_plot.html"></iframe>
+    </div>
+    
+</body>
+</html>
